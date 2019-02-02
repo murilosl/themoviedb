@@ -11,26 +11,11 @@ import XCTest
 
 class Teste_IOSTests: XCTestCase {
     
-    var moviesController: MoviesTableViewController!
-    
     override func setUp() {
         super.setUp()
-        moviesController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "movies") as! MoviesTableViewController
-        
-        moviesController.preLoad()
-    }
+     }
     
     override func tearDown() {
         super.tearDown()
-    }
-    
-    func testLoadMoviesNegative(){
-        moviesController.loadMovies()
-        XCTAssertTrue(moviesController.movies.count == 0 , "Not load Movies")
-    }
-    
-    func testLoadMoviesNotNil(){
-        moviesController.loadMovies()
-        XCTAssertNotNil(moviesController.movies, "Movies is Nil")
     }
 }

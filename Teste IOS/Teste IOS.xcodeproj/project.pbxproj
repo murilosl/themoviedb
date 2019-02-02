@@ -26,6 +26,7 @@
 		BE7ACDD82203E66700B28BBD /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7ACDD72203E66700B28BBD /* MoviesTableViewController.swift */; };
 		BE7ACDDB2203E7A200B28BBD /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7ACDDA2203E7A200B28BBD /* MovieTableViewCell.swift */; };
 		BE7ACDDF2203E9C100B28BBD /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7ACDDE2203E9C100B28BBD /* MovieViewController.swift */; };
+		BE7ACDE1220648D700B28BBD /* test_ListMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7ACDE0220648D700B28BBD /* test_ListMovie.swift */; };
 		CAB2F170BEA44906E3770AA2 /* Pods_Teste_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B0907C2D3FE1A11D8BD58E /* Pods_Teste_IOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		BE7ACDD72203E66700B28BBD /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 		BE7ACDDA2203E7A200B28BBD /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		BE7ACDDE2203E9C100B28BBD /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		BE7ACDE0220648D700B28BBD /* test_ListMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_ListMovie.swift; sourceTree = "<group>"; };
 		D28894B73CB0692E823D1738 /* Pods_Teste_IOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_IOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 			children = (
 				BE634DB92203AE78000B961D /* Teste_IOSTests.swift */,
 				BE634DBB2203AE78000B961D /* Info.plist */,
+				BE7ACDE0220648D700B28BBD /* test_ListMovie.swift */,
 			);
 			path = "Teste IOSTests";
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7ACDE1220648D700B28BBD /* test_ListMovie.swift in Sources */,
 				BE634DBA2203AE78000B961D /* Teste_IOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
