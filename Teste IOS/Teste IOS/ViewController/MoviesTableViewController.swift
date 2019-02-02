@@ -19,6 +19,11 @@ class MoviesTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.loadMovies()
+    }
+    
+    //MARK: - Load Movies
+    func loadMovies(){
         manager.getMovies { (result) in
             if result != nil{
                 self.movies = result!
@@ -27,6 +32,7 @@ class MoviesTableViewController: UITableViewController {
         }
     }
 
+    //MARK: - Search Box
     @IBAction func searchAction(_ sender: Any) {
         let text = searchText.text!
         
@@ -107,4 +113,11 @@ class MoviesTableViewController: UITableViewController {
         }
     }
 
+}
+
+extension UITableViewController{
+    
+    func preLoad(){
+        _ = self.view
+    }
 }

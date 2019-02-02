@@ -13,7 +13,7 @@
         <!--Movies Table View Controller-->
         <scene sceneID="1F5-aE-s6R">
             <objects>
-                <tableViewController id="fRk-GK-CdG" customClass="MoviesTableViewController" customModule="Teste_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="movies" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fRk-GK-CdG" customClass="MoviesTableViewController" customModule="Teste_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="YL5-gk-upX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
