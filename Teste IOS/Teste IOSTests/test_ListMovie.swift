@@ -23,12 +23,6 @@ class test_ListMovie: XCTestCase {
 
     }
     
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
     func testLoadMoviesNegative(){
         moviesController.loadMovies()
         XCTAssertTrue(moviesController.movies.count == 0 , "Not load Movies")
